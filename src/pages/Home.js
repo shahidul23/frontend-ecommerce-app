@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Marquee from "react-fast-marquee";
 import BlogCard from '../components/BlogCard';
-import ProdictCard from '../components/ProdictCard';
+import ProductCard from '../components/ProductCard';
 import SpecialProduct from '../components/SpecialProduct';
 
 const Home = () => {
@@ -75,7 +75,7 @@ const Home = () => {
               <div className='d-flex align-items-center gap-15'>
                 <img src='images/service-02.png' alt='services'/>
                 <div>
-                  <h6>Saily Surprise Offer</h6>
+                  <h6>Daily Surprise Offer</h6>
                   <p className='mb-0'>Save upto 25% foo</p>
                 </div>
               </div>
@@ -177,14 +177,14 @@ const Home = () => {
           <div className='col-12'>
             <h3 className='section-heading'>Featured Collection</h3>
           </div>
-          <ProdictCard />
-          <ProdictCard />
-          <ProdictCard />
-          <ProdictCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
         </div>
       </div>
     </section>
-    <section className='famous-wrappre home-wrapper-2 py-5'>
+    <section className='famous-wrapper home-wrapper-2 py-5'>
       <div className='container-xxl'>
         <div className='row'>
           <div className='col-3'>
@@ -213,16 +213,16 @@ const Home = () => {
         </div>
       </div> 
     </section>
-    <section className='populer-wrapper home-wrapper-2 py-5'>
+    <section className='popular-wrapper home-wrapper-2 py-5'>
       <div className='container-xxl'>
         <div className='row'>
           <div className='col-12'>
-            <h3 className='section-heading'>Our Populer Products</h3>
+            <h3 className='section-heading'>Our Popular Products</h3>
           </div>
-          <ProdictCard />
-          <ProdictCard />
-          <ProdictCard />
-          <ProdictCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
         </div>
       </div>
     </section>
