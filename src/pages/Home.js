@@ -188,11 +188,45 @@ const Home = () => {
       <div className='container-xxl'>
         <div className='row'>
           <div className='col-3'>
-            <div className='famous-card bg-dark'>
-              <img src='images/tab1.jpg' alt='tab' className='famous-image img-fluid'/>
+            <div className='famous-card position-relative'>
+              <img src='images/famous-1.jpg' alt='tab' className='famous-image img-fluid'/>
+              <div className='famous-content position-absolute'>
+                <h5>Big Screen </h5>
+                <h6>Smart Warch Series 7</h6>
+                <p>Form $34.00 or $18.00/mo. for 24 mo.</p>
+              </div>
             </div>
           </div>
-
+          <div className='col-3'>
+            <div className='famous-card position-relative'>
+              <img src='images/famous-2.jpg' alt='tab' className='famous-image img-fluid'/>
+              <div className='famous-content position-absolute'>
+                <h5>Big Screen </h5>
+                <h6>Samsung S22 Ultra</h6>
+                <p>Form $134.00 or $12.00/mo. for 24 mo.</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-3'>
+            <div className='famous-card position-relative'>
+              <img src='images/famous-3.jpg' alt='tab' className='famous-image img-fluid'/>
+              <div className='famous-content position-absolute'>
+                <h5>Big Screen </h5>
+                <h6>HP Laptop Serice 11</h6>
+                <p>Form $313.00 or $15.00/mo. for 24 mo.</p>
+              </div>
+            </div>
+          </div>
+          <div className='col-3'>
+            <div className='famous-card position-relative'>
+              <img src='images/famous-4.jpg' alt='tab' className='famous-image img-fluid'/>
+              <div className='famous-content position-absolute'>
+                <h5>Big Screen </h5>
+                <h6>Smart TV Series 7</h6>
+                <p>Form $94.00 or $19.00/mo. for 24 mo.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
