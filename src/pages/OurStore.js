@@ -7,7 +7,7 @@ import ProdictCard from '../components/ProdictCard';
 
 
 const OurStore = () => {
- const [grid, setGrid] = useState(4); 
+ const [grid, setGrid] = useState(3); 
   return (
     <>
       <Meta title="Our Store"/>
