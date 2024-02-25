@@ -7,6 +7,12 @@ import Contact from './pages/Contact';
 import Layout from './components/Layout';
 import OurStore from './pages/OurStore';
 import Blog from './pages/Blog';
+import CompareProducts from './pages/CompareProducts';
+import Wishlist from './pages/Wishlist';
+import Login from './pages/Login';
+import ForgetPassword from './pages/ForgetPassword';
+import Singup from './pages/Singup';
+import ResetPassword from './pages/ResetPassword';
 
 function App() {
   return <>
@@ -18,6 +24,12 @@ function App() {
         <Route path='contact' element={<Contact/>}/>
         <Route path='store' element={<OurStore />}/>
         <Route path='blogs' element={<Blog />}/>
+        <Route path='compare-product' element={<CompareProducts />}/>
+        <Route path='wishlist' element={<Wishlist />}/>
+        <Route path='login' element={<Login />}/>
+        <Route path='forgot-password' element={<ForgetPassword />}/>
+        <Route path='singup' element={<Singup />}/>
+        <Route path='reset-password' element={<ResetPassword />}/>
       </Route>
     </Routes>
   </BrowserRouter>

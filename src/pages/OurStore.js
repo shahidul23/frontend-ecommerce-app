@@ -3,8 +3,8 @@ import BreadCrumb from '../components/BreadCrumb'
 import Meta from '../components/Meta'
 import { Link } from 'react-router-dom'
 import ReactStars from "react-rating-stars-component";
-import ProdictCard from '../components/ProdictCard';
-
+import ProdictCard from '../components/ProductCard';
+import Color from '../components/Color';
 
 const OurStore = () => {
  const [grid, setGrid] = useState(3); 
@@ -53,27 +53,8 @@ const OurStore = () => {
                   </div>
                 </div>
                 <h5 className='sub-title'>Colors</h5>
-                <div className='d-flex flex-wrap'>
-                  <ul className='colors ps-0'>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                  </ul>
+                <div className='d-flex flex-wrap gap-10'>
+                  <Color /><Color /><Color /><Color />
                 </div>
                 <h5 className='sub-title'>Size</h5>
                 <div>
@@ -172,6 +153,9 @@ const OurStore = () => {
               </div>
               <div className='products-list pb-5'>
                 <div className='d-flex gap-10 flex-wrap'>
+                <ProdictCard grid = {grid}/>
+                <ProdictCard grid = {grid}/>
+                <ProdictCard grid = {grid}/>
                 <ProdictCard grid = {grid}/>
                 </div>
               </div>
