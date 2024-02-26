@@ -89,7 +89,7 @@ a{
   text-transform: uppercase;
 }
 .header-bottom .dropdown button::before{
-  content: url('../public/images/menu.svg');
+  content: url('./images/menu.svg');
 }
 .header-bottom .dropdown button:focus{
   box-shadow: none;
