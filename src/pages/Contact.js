@@ -42,8 +42,8 @@ const Contact = () => {
                       <textarea name='' id='' className='form-control w-100' cols="30" rows="4" placeholder='Comments'></textarea>
                     </div>
                     <div>
-                  <button type='submit' className='button border-0'>Submit</button>
-                </div>
+                      <button type='submit' className='button border-0'>Submit</button>
+                    </div>
                   </form>
                 </div>
                 <div className=''>

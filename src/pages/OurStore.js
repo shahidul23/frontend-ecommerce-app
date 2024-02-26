@@ -5,6 +5,11 @@ import { Link } from 'react-router-dom'
 import ReactStars from "react-rating-stars-component";
 import ProdictCard from '../components/ProductCard';
 import Color from '../components/Color';
+import watch from "../images/watch.jpg"
+import gr4 from "../images/gr4.svg"
+import gr3 from "../images/gr3.svg"
+import gr2 from "../images/gr2.svg"
+import gr1 from "../images/gr.svg"
 
 const OurStore = () => {
  const [grid, setGrid] = useState(3); 
@@ -94,7 +99,7 @@ const OurStore = () => {
               <div>
                 <div className='random-products mb-2 d-flex'>
                   <div className='w-35'>
-                    <img src='images/watch.jpg' alt='watch' className='img-fluid'/>
+                    <img src={watch} alt='watch' className='img-fluid'/>
                   </div>
                   <div className='w-65'>
                     <h5>Kids headphone bulk 10 pack multi colors for students</h5>
@@ -110,7 +115,7 @@ const OurStore = () => {
                 </div>
                 <div className='random-products mb-2 d-flex'>
                   <div className='w-35'>
-                    <img src='images/watch.jpg' alt='watch' className='img-fluid'/>
+                    <img src={watch} alt='watch' className='img-fluid'/>
                   </div>
                   <div className='w-65'>
                     <h5>Kids headphone bulk 10 pack multi colors for students</h5>
@@ -143,10 +148,10 @@ const OurStore = () => {
                   <div className='d-flex align-items-center gap-10'>
                     <p className='totalProducts mb-0'>12 Products</p>
                     <div className='d-flex gap-10 align-items-center grid'>
-                      <img src='images/gr4.svg' className='d-block img-fluid' alt='grid' onClick={()=>{setGrid(3)}}/>
-                      <img src='images/gr3.svg' className='d-block img-fluid' alt='grid' onClick={()=>{setGrid(4)}}/>
-                      <img src='images/gr2.svg' className='d-block img-fluid' alt='grid' onClick={()=>{setGrid(6)}}/>
-                      <img src='images/gr.svg' className='d-block img-fluid' alt='grid' onClick={()=>{setGrid(12)}}/>
+                      <img src={gr4} className='d-block img-fluid' alt='grid' onClick={()=>{setGrid(3)}}/>
+                      <img src={gr3} className='d-block img-fluid' alt='grid' onClick={()=>{setGrid(4)}}/>
+                      <img src={gr2} className='d-block img-fluid' alt='grid' onClick={()=>{setGrid(6)}}/>
+                      <img src={gr1} className='d-block img-fluid' alt='grid' onClick={()=>{setGrid(12)}}/>
                     </div>
                   </div>
                 </div>
