@@ -48,7 +48,7 @@ const Header = () => {
                 <img src={user} alt='Compare'/><p className='mb-0'>Log in <br/> My Account</p></Link>
                 </div>
                 <div>
-                <Link className='d-flex align-items-center gap-15 text-white'>
+                <Link to="/cart" className='d-flex align-items-center gap-15 text-white'>
                 <img src={cart} alt='Cart'/>
                  <div className='d-flex flex-column gap-10'>
                   <span className='badge bg-white text-dark'>0</span>

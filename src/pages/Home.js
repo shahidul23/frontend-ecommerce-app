@@ -29,9 +29,11 @@ import brand_5 from "../images/brand-05.png"
 import brand_6 from "../images/brand-06.png"
 import brand_7 from "../images/brand-07.png"
 import brand_8 from "../images/brand-08.png"
+import Meta from '../components/Meta';
 
 const Home = () => {
   return <>
+    <Meta title="Home" />
     <section className='home-wrapper-1 py-5'>
       <div className='container-xxl'>
         <div className='row'>
