@@ -16,9 +16,9 @@ const ProdictCard = (props) => {
       <div className={` ${location.pathname === "/store" ? `gr-${grid}`: "col-3"}`}>
       <Link to="/product/:id" className='product-card position-relative'>
         <div className='wishlist-icon position-absolute'>
-            <Link>
+            <button className='border-0 bg-transparent'>
                <img src={wish} alt='wishlist'/>
-            </Link>
+            </button>
         </div>
         <div className='product-image'>
             <img src={watch} className='img-fluid' alt='Product' />
@@ -39,15 +39,15 @@ const ProdictCard = (props) => {
         </div>
         <div className='action-bar position-absolute'>
             <div className='d-flex flex-column'>
-                <Link>
+                <button className='border-0 bg-transparent'>
                   <img src={prodcompare} alt='compare'/>
-                </Link>
-                <Link>
+                </button>
+                <button className='border-0 bg-transparent'>
                   <img src={view} alt='view'/>
-                </Link>
-                <Link>
+                </button>
+                <button className='border-0 bg-transparent'>
                   <img src={add_cart} alt='add cart'/>
-                </Link>
+                </button>
             </div>
         </div>
       </Link>

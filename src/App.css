@@ -775,3 +775,6 @@ footer .input-group-text{
   font-size: 16px;
   color: var(--color-1c1c1b);
 }
+.checkout-right-data img{
+  border-radius: 10px;
+}
